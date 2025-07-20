@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Azer-Production - Projet agro-pastoral offrant des produits naturels et biologiques de haute qualité. Maïs, poulets de chair, tomates et légumes bio au Cameroun.">
+    <meta name="keywords" content="agriculture biologique, élevage, Cameroun, maïs bio, poulet de chair, tomates, Ndoumbi, agro-pastoral">
+    <meta name="author" content="Azer-Production">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://azer-production.com/">
+    <meta property="og:title" content="Azer-Production - Agriculture Biologique & Élevage">
+    <meta property="og:description" content="Projet agro-pastoral offrant des produits naturels et biologiques de haute qualité au Cameroun.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://azer-production.com/">
+    <meta property="twitter:title" content="Azer-Production - Agriculture Biologique & Élevage">
+    <meta property="twitter:description" content="Projet agro-pastoral offrant des produits naturels et biologiques de haute qualité au Cameroun.">
+
+    <title>Azer-Production - Agriculture Biologique & Élevage Naturel</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/logoCachet_rounded.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- custom css -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="bi bi-tree-fill me-2"></i>Azer-Production
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">À Propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accomplishments">Accomplissements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Équipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#vision">Vision</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <h1 class="hero-title">
+                        Agriculture Biologique & Élevage Naturel
+                    </h1>
+                    <p class="hero-subtitle">
+                        "Ensemble dans l'amour produisons les mets dignes des rois" -
+                        Découvrez nos produits naturels et biologiques de haute qualité.
+                    </p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#services" class="btn-custom">
+                            <i class="bi bi-arrow-right me-2"></i>Nos Produits
+                        </a>
+                        <a href="#about" class="btn btn-outline-light btn-lg">
+                            En Savoir Plus
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-center">
+                        <i class="bi bi-tree display-1 mb-3" style="animation: float 3s ease-in-out infinite;"></i>
+                        <h3>Amour - Travail - Production</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <div class="stat-item scroll-reveal">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">Ha Projetés</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>À Propos d'Azer-Production</h2>
+                <p class="subtitle">
+                    Un projet agro-pastoral né le 7 août 2024 avec pour mission de produire
+                    une alimentation saine et de qualité élevée.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 scroll-reveal-left">
+                    <h3 class="mb-4">Notre Mission</h3>
+                    <p class="mb-4">
+                        Azer-Production est né de la volonté d'apporter notre contribution pour la nutrition
+                        des bien-aimés frères qui arrivent dans la maison du leader. Nous nous engageons à
+                        proposer des produits de très bonne qualité et à bas prix issus de l'agriculture
+                        et de l'élevage biologique.
+                    </p>
+                    <p class="mb-4">
+                        Nos pratiques de culture et d'élevage sont respectueuses des équilibres de la nature.
+                        Nos productions sont semi-biologiques : nous n'utilisons ni produits chimiques de
+                        synthèse, ni OGM et limitons l'utilisation d'intrants.
+                    </p>
+                </div>
+                <div class="col-lg-6 scroll-reveal-right">
+                    <div class="card-custom p-4">
+                        <h4 class="mb-3">Nos Valeurs</h4>
+                        <div class="mb-3">
+                            <i class="bi bi-heart-fill text-success me-2"></i>
+                            <strong>Amour :</strong> L'amour guide toutes nos actions
+                        </div>
+                        <div class="mb-3">
+                            <i class="bi bi-tools text-success me-2"></i>
+                            <strong>Travail :</strong> L'excellence par l'effort et la dedication
+                        </div>
+                        <div class="mb-3">
+                            <i class="bi bi-basket-fill text-success me-2"></i>
+                            <strong>Production :</strong> Des produits naturels de qualité
+                        </div>
+                        <div class="mb-3">
+                            <i class="bi bi-geo-alt-fill text-success me-2"></i>
+                            <strong>Localisation :</strong> Ndoumbi, Cameroun
+                        </div>
+                        <hr>
+                        <h5 class="text-success">Notre Slogan</h5>
+                        <p class="fst-italic">"Ensemble dans l'amour produisons les mets dignes des rois"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Nos Produits & Services</h2>
+                <p class="subtitle">
+                    Découvrez notre gamme de produits naturels et biologiques
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card-custom p-4 scroll-reveal">
+                        <div class="card-icon">
+                            <i class="bi bi-basket3-fill"></i>
+                        </div>
+                        <h4 class="text-center mb-3">Production de Maïs</h4>
+                        <p class="text-center text-muted">
+                            Maïs biologique cultivé sur nos terres fertiles,
+                            récolté avec soin pour une qualité optimale.
+                        </p>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Culture biologique</li>
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Sans produits chimiques</li>
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Rendement de qualité</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card-custom p-4 scroll-reveal">
+                        <div class="card-icon">
+                            <i class="bi bi-egg-fill"></i>
+                        </div>
+                        <h4 class="text-center mb-3">Élevage de Poulets</h4>
+                        <p class="text-center text-muted">
+                            Poulets de chair semi-biologiques élevés dans
+                            le respect du bien-être animal.
+                        </p>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Élevage semi-bio</li>
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Alimentation naturelle</li>
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Qualité garantie</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card-custom p-4 scroll-reveal">
+                        <div class="card-icon">
+                            <i class="bi bi-apple"></i>
+                        </div>
+                        <h4 class="text-center mb-3">Production de Tomates</h4>
+                        <p class="text-center text-muted">
+                            Tomates fraîches cultivées selon nos méthodes
+                            biologiques pour un goût authentique.
+                        </p>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Fraîcheur garantie</li>
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Goût authentique</li>
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Production locale</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-6 scroll-reveal-left">
+                    <h3>Produits Futurs</h3>
+                    <p>Dans notre vision à long terme, nous développerons également :</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-arrow-right text-success me-2"></i>Haricots biologiques</li>
+                        <li><i class="bi bi-arrow-right text-success me-2"></i>Manioc de qualité</li>
+                        <li><i class="bi bi-arrow-right text-success me-2"></i>Légumes variés</li>
+                        <li><i class="bi bi-arrow-right text-success me-2"></i>Soja naturel</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 scroll-reveal-right">
+                    <h3>Stade d'Avancement</h3>
+                    <p>Actuellement, nous avons réalisé :</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check2 text-success me-2"></i>1 hectare de maïs cultivé</li>
+                        <li><i class="bi bi-check2 text-success me-2"></i>10 sacs de 100kg récoltés</li>
+                        <li><i class="bi bi-check2 text-success me-2"></i>99 poulets élevés avec succès</li>
+                        <li><i class="bi bi-check2 text-success me-2"></i>24 poulets commercialisés</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accomplishments Section -->
+    <section id="accomplishments" class="accomplishments-section section">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Nos Accomplissements</h2>
+                <p class="subtitle">
+                    Découvrez ce que nous avons déjà réalisé et nos projets en cours de développement
+                </p>
+            </div>
+            
+            <div class="row mb-5">
+                <div class="col-lg-6 mb-4">
+                    <div class="accomplishment-card scroll-reveal-left">
+                        <div class="accomplishment-icon completed">
+                            <i class="bi bi-check-circle-fill"></i>
+                        </div>
+                        <h4 class="text-center mb-4 text-success">Accomplissements Réalisés</h4>
+                        
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span><i class="bi bi-geo-alt text-success me-2"></i>Hectare de maïs cultivé</span>
+                                <strong class="text-success">1/1</strong>
+                            </div>
+                            <div class="progress-bar-custom">
+                                <div class="progress-fill" data-progress="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span><i class="bi bi-basket text-success me-2"></i>Sacs de maïs récoltés</span>
+                                <strong class="text-success">10/10</strong>
+                            </div>
+                            <div class="progress-bar-custom">
+                                <div class="progress-fill" data-progress="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span><i class="bi bi-egg text-success me-2"></i>Poulets élevés</span>
+                                <strong class="text-success">99/99</strong>
+                            </div>
+                            <div class="progress-bar-custom">
+                                <div class="progress-fill" data-progress="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span><i class="bi bi-currency-dollar text-success me-2"></i>Poulets commercialisés</span>
+                                <strong class="text-success">24/24</strong>
+                            </div>
+                            <div class="progress-bar-custom">
+                                <div class="progress-fill" data-progress="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="text-center mt-4">
+                            <span class="badge bg-success py-2 px-3">Objectifs 2024 Atteints</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="accomplishment-card scroll-reveal-right">
+                        <div class="accomplishment-icon in-progress">
+                            <i class="bi bi-hourglass-split"></i>
+                        </div>
+                        <h4 class="text-center mb-4 text-warning">Projets en Cours</h4>
+                        
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span><i class="bi bi-building text-warning me-2"></i>Expansion à 100 hectares</span>
+                                <strong class="text-warning">15%</strong>
+                            </div>
+                            <div class="progress-bar-custom">
+                                <div class="progress-fill" data-progress="15" style="background: linear-gradient(135deg, #ffc107, #fd7e14);"></div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span><i class="bi bi-gear text-warning me-2"></i>Usine de transformation</span>
+                                <strong class="text-warning">8%</strong>
+                            </div>
+                            <div class="progress-bar-custom">
+                                <div class="progress-fill" data-progress="8" style="background: linear-gradient(135deg, #ffc107, #fd7e14);"></div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span><i class="bi bi-leaf text-warning me-2"></i>Nouveaux produits bio</span>
+                                <strong class="text-warning">25%</strong>
+                            </div>
+                            <div class="progress-bar-custom">
+                                <div class="progress-fill" data-progress="25" style="background: linear-gradient(135deg, #ffc107, #fd7e14);"></div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span><i class="bi bi-camera text-warning me-2"></i>Site touristique agro-pastoral</span>
+                                <strong class="text-warning">5%</strong>
+                            </div>
+                            <div class="progress-bar-custom">
+                                <div class="progress-fill" data-progress="5" style="background: linear-gradient(135deg, #ffc107, #fd7e14);"></div>
+                            </div>
+                        </div>
+
+                        <div class="text-center mt-4">
+                            <span class="badge bg-warning text-dark py-2 px-3">En Développement 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline des accomplissements -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="accomplishment-card scroll-reveal-scale">
+                        <h4 class="text-center mb-4">Chronologie de nos Accomplissements</h4>
+                        <div class="row">
+                            <div class="col-md-3 text-center mb-3">
+                                <div class="accomplishment-icon completed mx-auto mb-3" style="width: 60px; height: 60px; font-size: 1.5rem;">
+                                    <i class="bi bi-calendar-check"></i>
+                                </div>
+                                <h6 class="text-success">Août 2024</h6>
+                                <p class="small text-muted">Lancement du projet</p>
+                            </div>
+                            <div class="col-md-3 text-center mb-3">
+                                <div class="accomplishment-icon completed mx-auto mb-3" style="width: 60px; height: 60px; font-size: 1.5rem;">
+                                    <i class="bi bi-seedling"></i>
+                                </div>
+                                <h6 class="text-success">Sept 2024</h6>
+                                <p class="small text-muted">Première plantation de maïs</p>
+                            </div>
+                            <div class="col-md-3 text-center mb-3">
+                                <div class="accomplishment-icon completed mx-auto mb-3" style="width: 60px; height: 60px; font-size: 1.5rem;">
+                                    <i class="bi bi-award"></i>
+                                </div>
+                                <h6 class="text-success">Déc 2024</h6>
+                                <p class="small text-muted">Première récolte réussie</p>
+                            </div>
+                            <div class="col-md-3 text-center mb-3">
+                                <div class="accomplishment-icon in-progress mx-auto mb-3" style="width: 60px; height: 60px; font-size: 1.5rem;">
+                                    <i class="bi bi-rocket"></i>
+                                </div>
+                                <h6 class="text-warning">2025</h6>
+                                <p class="small text-muted">Phase d'expansion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Notre Équipe</h2>
+                <p class="subtitle">
+                    Rencontrez les fondateurs passionnés d'Azer-Production
+                </p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-6 mb-4">
+                    <div class="team-card scroll-reveal-left">
+                        <div class="team-avatar">R</div>
+                        <h3 class="team-name">Rolande Belbara</h3>
+                        <p class="team-role">Directrice de Projet</p>
+                        <p class="team-description">
+                            Titulaire d'une maîtrise en Sociologie Rurale de l'Université de N'Gaoundéré,
+                            Rolande apporte son expertise en gestion de projet et sa connaissance de la
+                            production en milieu rural. Guidée par sa foi en la providence de Dieu,
+                            elle assure le financement et la direction stratégique du projet.
+                        </p>
+                        <div class="mt-3">
+                            <span class="badge bg-success me-2">Gestion de Projet</span>
+                            <span class="badge bg-success me-2">Sociologie Rurale</span>
+                            <span class="badge bg-success">Leadership</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 mb-4">
+                    <div class="team-card scroll-reveal-right">
+                        <div class="team-avatar">A</div>
+                        <h3 class="team-name">Alima Meroua J. Japhet</h3>
+                        <p class="team-role">Directeur de Production</p>
+                        <p class="team-description">
+                            Ancien étudiant du CIFAP (Centre Interne de la Formation Agro-Pastoral de Bipondo),
+                            Alima a été formé spécialement par M. Romuald BAFONA. Il met en valeur sa formation
+                            technique en dirigeant tous les aspects de la production agricole et de l'élevage.
+                        </p>
+                        <div class="mt-3">
+                            <span class="badge bg-success me-2">Production Agricole</span>
+                            <span class="badge bg-success me-2">Élevage</span>
+                            <span class="badge bg-success">Technique</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto scroll-reveal-scale">
+                    <div class="card-custom p-4 text-center">
+                        <h4 class="mb-3">Structure Organisationnelle</h4>
+                        <p class="mb-4">
+                            Notre équipe est constituée de deux familles unies par une vision commune.
+                            La main d'œuvre est assurée par les membres des familles Belbara et Alima Meroua.
+                        </p>
+                        <div class="row text-start">
+                            <div class="col-md-6">
+                                <h6><i class="bi bi-person-badge text-success me-2"></i>Direction</h6>
+                                <ul class="list-unstyled ms-3">
+                                    <li>• Directrice de projet</li>
+                                    <li>• Directeur de production</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h6><i class="bi bi-people text-success me-2"></i>Équipe Opérationnelle</h6>
+                                <ul class="list-unstyled ms-3">
+                                    <li>• 2 ouvriers</li>
+                                    <li>• 1 gestionnaire</li>
+                                    <li>• Membres des familles</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision" class="section bg-light">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Notre Vision 2035</h2>
+                <p class="subtitle">
+                    Un projet ambitieux pour devenir un acteur majeur de l'agriculture biologique
+                </p>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto scroll-reveal-scale">
+                    <div class="card-custom p-4 text-center">
+                        <h3 class="mb-4 text-success">Site de 100 Hectares à Ndoumbi</h3>
+                        <p class="lead">
+                            Dans 10 ans, nous devons être capable de produire assez de maïs, de poulet,
+                            de tomate, de légumes, haricot, manioc biologiques pour la maison du leader et des frères.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card-custom p-4 scroll-reveal">
+                        <div class="card-icon">
+                            <i class="bi bi-house-fill"></i>
+                        </div>
+                        <h5 class="text-center mb-3">Infrastructure</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Habitat du staff</li>
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Hall et salle de réunion</li>
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Maison de retraite</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card-custom p-4 scroll-reveal">
+                        <div class="card-icon">
+                            <i class="bi bi-gear-fill"></i>
+                        </div>
+                        <h5 class="text-center mb-3">Production</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Production agricole</li>
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Ferme d'élevage</li>
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Provenderie</li>
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Usines de transformation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card-custom p-4 scroll-reveal">
+                        <div class="card-icon">
+                            <i class="bi bi-camera-fill"></i>
+                        </div>
+                        <h5 class="text-center mb-3">Tourisme</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Volailles de compagnie</li>
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Paons et perroquets</li>
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Animaux de prestige</li>
+                            <li><i class="bi bi-check-circle text-success me-2"></i>Jardin paysager</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6 scroll-reveal-left">
+                    <h3 class="mb-4">Objectifs à Long Terme</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h6>Production Diversifiée</h6>
+                            <p>Maïs, poulet, tomates, légumes, haricots, manioc biologiques en quantité suffisante</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h6>Transformation</h6>
+                            <p>Usines de transformation pour valoriser nos produits agricoles</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h6>Tourisme Agro-Pastoral</h6>
+                            <p>Site touristique avec animaux de prestige et jardins paysagers</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h6>Autonomie Alimentaire</h6>
+                            <p>Assurer la sécurité alimentaire de la communauté</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 scroll-reveal-right">
+                    <div class="card-custom p-4">
+                        <h4 class="mb-3 text-success">Impact Économique Projeté</h4>
+                        <div class="row">
+                            <div class="col-6 text-center mb-3">
+                                <div class="h2 text-success">100</div>
+                                <small class="text-muted">Hectares</small>
+                            </div>
+                            <div class="col-6 text-center mb-3">
+                                <div class="h2 text-success">50+</div>
+                                <small class="text-muted">Emplois créés</small>
+                            </div>
+                            <div class="col-6 text-center mb-3">
+                                <div class="h2 text-success">25%</div>
+                                <small class="text-muted">Pour le leader</small>
+                            </div>
+                            <div class="col-6 text-center mb-3">
+                                <div class="h2 text-success">75%</div>
+                                <small class="text-muted">Commercialisation</small>
+                            </div>
+                        </div>
+                        <hr>
+                        <h6 class="text-center">Modèle Économique Durable</h6>
+                        <p class="text-center text-muted small">
+                            Un équilibre parfait entre mission sociale et viabilité économique
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2 class="text-white">Contactez-Nous</h2>
+                <p class="subtitle text-white opacity-75">
+                    Rejoignez notre mission pour une agriculture biologique et durable
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-info scroll-reveal-scale">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="bi bi-geo-alt-fill"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-1">Horaires</h6>
+                                        <p class="mb-0 opacity-75">Lun - Sam: 7h00 - 18h00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center mt-4">
+                            <h5 class="mb-3">Suivez-nous</h5>
+                            <div class="social-links justify-content-center">
+                                <a href="#" class="social-link">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="bi bi-twitter"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="bi bi-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5><i class="bi bi-tree-fill me-2"></i>Azer-Production</h5>
+                    <p class="text-muted">
+                        Projet agro-pastoral dédié à la production d'aliments biologiques
+                        et naturels de haute qualité au Cameroun.
+                    </p>
+                    <p class="small text-muted">
+                        <strong>Devise :</strong> Amour - Travail - Production<br>
+                        <strong>Slogan :</strong> "Ensemble dans l'amour produisons les mets dignes des rois"
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Navigation</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À Propos</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#accomplishments">Accomplissements</a></li>
+                        <li><a href="#team">Équipe</a></li>
+                        <li><a href="#vision">Vision</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Nos Produits</h5>
+                    <ul class="footer-links">
+                        <li><a href="#services">Maïs Biologique</a></li>
+                        <li><a href="#services">Poulets de Chair</a></li>
+                        <li><a href="#services">Tomates Fraîches</a></li>
+                        <li><a href="#services">Légumes Bio</a></li>
+                        <li><a href="#services">Haricots</a></li>
+                        <li><a href="#services">Manioc</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Informations</h5>
+                    <ul class="footer-links">
+                        <li><i class="bi bi-geo-alt me-2"></i>Ndoumbi, Cameroun</li>
+                        <li><i class="bi bi-calendar3 me-2"></i>Fondé le 7 Août 2024</li>
+                        <li><i class="bi bi-award me-2"></i>Agriculture Biologique</li>
+                        <li><i class="bi bi-shield-check me-2"></i>Qualité Garantie</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-muted small mb-0">
+                        &copy; 2024 Azer-Production. Tous droits réservés.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Cunston JS -->
+     <script src="script.js"></script>
+</body>
+</html>
