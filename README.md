@@ -1,2 +1,2 @@
 # azer_production
-Site web d'Agriculture Biologique &amp; Élevage Naturel
+Site web d'agriculture Biologique &amp; Élevage Naturel
