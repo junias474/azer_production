@@ -165,7 +165,7 @@
 
         .hero-content {
             position: relative;
-            z-index: 2;
+            z-index: 3;
         }
 
         .hero-title {
@@ -677,4 +677,17 @@
         @keyframes spin {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
+        }
+
+        /* Overlay flou sur le texte de la section hero */
+        .hero-blur-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+            background: rgba(255,255,255,0.25); /* blanc semi-transparent */
+            backdrop-filter: blur(12px);
+            pointer-events: none;
         }
