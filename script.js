@@ -1,4 +1,4 @@
-        // Loading animation
+// Loading animation
         window.addEventListener('load', function() {
             setTimeout(() => {
                 document.getElementById('loadingOverlay').classList.add('hidden');
@@ -206,3 +206,12 @@
 
         // Apply throttling to scroll events
         window.addEventListener('scroll', throttle(revealOnScroll, 16));
+
+        // Hero background image slider
+        const images = document.querySelectorAll('.hero-bg-slider img');
+        let current = 0;
+        setInterval(() => {
+          images[current].classList.remove('active');
+          current = (current + 1) % images.length;
+          images[current].classList.add('active');
+        }, 4000);
