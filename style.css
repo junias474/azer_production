@@ -615,6 +615,27 @@
             color: white;
         }
 
+        /* Future Products and Progress Status */
+        .future-products, .progress-status {
+            background: rgba(255,255,255,0.85);
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(34,139,34,0.12);
+            padding: 32px 28px;
+            margin-bottom: 32px;
+            border-left: 6px solid var(--primary-color);
+        }
+        .future-products h3, .progress-status h3 {
+            color: var(--primary-color);
+            font-weight: 700;
+            margin-bottom: 18px;
+        }
+        .future-products ul li, .progress-status ul li {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: var(--text-dark);
+            padding-left: 8px;
+        }
+
         /* Responsive design */
         @media (max-width: 768px) {
             .hero {
